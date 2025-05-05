@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <title>Delicious Coffee cafe</title>
+    <link rel="shortcut icon" href="images/starbugs.png" type="image/x-icon" />
+    <link rel="stylesheet" href="images/coffee.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container-fluid bg-light" style="position: sticky;top:0;z-index: 99;">
+      <div class="container justify-content-between">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="images/starbugs.png" alt="Bootstrap" height="50px" />
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse ms-4"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-4">
+                    <a class="nav-link fw-bold" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link fw-bold" href="gift.html" target="_blank">Gift</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link fw-bold" href="order.html">Order</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link fw-bold" href="#">Pay</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link fw-bold" href="#">Store</a>
+                  </li>
+                </ul>
+                <form class="d-flex justify-content-between" role="search">
+                  <input
+                    class="form-control me-0 rounded-5"
+                    type="search"
+                    placeholder="Search for something specific?"
+                    aria-label="Search"
+                    style="width: 270px"
+                    id="search"
+                  />
+                  <i
+                    class="fa-solid fa-circle-user ms-2"
+                    style="font-size: 45px"
+                  ></i>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- starbucks -->
+    <div class="container-fluid bg-success">
+      <div class="container ">
+        <div class="row d-flex justify-content-between">
+          <div
+            class="col-lg-6 col-md-8 col-sm-2 p-4 fs-4 text-light"
+            style="width: 50%"
+          >
+            <h2 id="starbuck">Star<span style="color: #f1c40f">bucks</span></h2>
+          </div>
+          <div
+            class="col-lg-6 col-md-4 col-sm-4 mt-sm-3 text-lg-end text-center text-lg-start"
+            style="width: 50%"
+            id="know"
+          >
+            <button
+              class="rounded-5 mt-lg-4 mt-2 p-1 border border-white bg-success text-light"
+              id="button"
+            >
+              Know More
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel Slider -->
+    <div class="container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="container mt-5 rounded-3"
+              style="
+                background: linear-gradient(
+                  to bottom,
+                  rgb(114, 113, 80),
+                  #add8e6
+                );
+              "
+            >
+              <div class="row d-flex">
+                <div class="col-lg-3 d-flex gap-4">
+                  <img
+                    src="images/coldcoffee.png"
+                    alt=""
+                    style="max-width: 100%; height: auto"
+                  />
+                </div>
+                <div class="col-lg-6 mt-5">
+                  <h5>All New</h5>
+                  <h3>Refressing summer vacation</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    dignissimos doloribus fugit.
+                  </p>
+                </div>
+                <div class="col-lg-3 mb-5" style="align-self: flex-end">
+                  <button
+                    class="btn btn-success btn-lg rounded-5"
+                    style="width: 200px; font-size: 15px"
+                  >
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="container mt-5 rounded-3"
+              style="
+                background: linear-gradient(
+                  to bottom,
+                  rgb(231, 231, 100),
+                  #add8e6
+                );
+              "
+            >
+              <div class="row d-flex">
+                <div class="col-lg-3 d-flex gap-4">
+                  <img
+                    src="images/coldcoffy2.png"
+                    alt=""
+                    style="max-width: 100%; height: auto"
+                  />
+                </div>
+                <div class="col-lg-6 mt-5">
+                  <h5>All New</h5>
+                  <h3>Refressing summer vacation</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    dignissimos doloribus fugit.
+                  </p>
+                </div>
+                <div class="col-lg-3 mb-5" style="align-self: flex-end">
+                  <button
+                    class="btn btn-success btn-lg rounded-5"
+                    style="width: 200px; font-size: 15px"
+                  >
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="container mt-5 rounded-3"
+              style="
+                background: linear-gradient(
+                  to bottom,
+                  rgb(231, 231, 100),
+                  #add8e6
+                );
+              "
+            >
+              <div class="row d-flex">
+                <div class="col-lg-3 d-flex gap-4">
+                  <img
+                    src="images/coldcoffee.png"
+                    alt=""
+                    style="max-width: 100%; height: auto"
+                  />
+                </div>
+                <div class="col-lg-6 mt-5">
+                  <h5>All New</h5>
+                  <h3>Refressing summer vacation</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    dignissimos doloribus fugit.
+                  </p>
+                </div>
+                <div class="col-lg-3 mb-5" style="align-self: flex-end">
+                  <button
+                    class="btn btn-success btn-lg rounded-5"
+                    style="width: 200px; font-size: 15px"
+                  >
+                    Explore Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- HandCrafted Curation -->
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <div class="row">
+          <h3 class="fw-bold">Handcrafted Curations</h3>
+        </div>
+
+        <div class="row handcrafted mt-5 g-3">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/firstcup.jpg" class="circle-img" alt="" />
+            <h5>Best Seller</h5>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/secondcup.jpg" class="circle-img" alt="" />
+            <h5>Best Seller</h5>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/thirdcup.jpg" class="circle-img" alt="" />
+            <h5>Drink</h5>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/forthcup.avif" class="circle-img" alt="" />
+            <h5>Food</h5>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/burger.jpeg" class="circle-img" alt="" />
+            <h5>Burger</h5>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <img src="images/milk.jpeg" class="circle-img" alt="" />
+            <h5>Cold Coffee</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Barista Recommends-->
+    <div class="container-fluid mt-5 barista">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-5">
+            <h3 class="fw-bold">Barista Recommends</h3>
+          </div>
+          <div class="col-lg-6 text-lg-end text-sm-end mt-5">
+            <h5 class="text-success fs-6">View Menu</h5>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="card mb-5" style="max-width: 400px">
+            <div class="row g-0">
+              <div class="col-md-3">
+                <img
+                  src="images/barustacofee.jpeg"
+                  class="img-fluid rounded-start mt-3 rounded-3"
+                  alt="..."
+                />
+                <h5 class="mt-4 fs-6">&#8377; 420.00</h5>
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Java Chip Frappuccino</h5>
+                  <p class="card-text">TALL(345ml).392kcal</p>
+                </div>
+                <div
+                  class="card-md-3 text-lg-end text-md-end"
+                  style="width: 18rem"
+                >
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary bg-success rounded-5"
+                      >Add item</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- world cofee -->
+    <section class="container-fluid mt-5 Discoverworld">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-5">
+            <h3 class="fs-3 fw-bold">Learn more about the world coffee!</h3>
+          </div>
+          <div class="col-lg-6 text-lg-end text-sm-end mt-5">
+            <h5 class="text-success fs-6">Discover Menu</h5>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="card text-bg-dark mb-5">
+              <img
+                src="images/worldmixup.avif"
+                class="mx-auto d-block w-100 object-fit-cover"
+                alt="..."
+                style="height: 300px"
+              />
+              <div
+                class="card-img-overlay d-flex flex-column justify-content-end"
+              >
+                <h5 class="card-title text-light fs-3 fw-bold">
+                  Arts and Science of Coffee Brewing
+                </h5>
+                <p class="card-text">
+                  Master the perfect Brew with Starbuck! Learn the art and
+                  science of Coffee Brewing
+                </p>
+                <div class="btn text-start">
+                  <a href="#" class="btn btn-light btn-lg rounded-3 fs-6"
+                    >Add item</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="container-fluid mt-5" style="background-color: #0e382c">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 mt-5">
+            <img
+              _ngcontent-ng-c3517931131=""
+              alt="Logo"
+              src="images/starlogo2.png"
+              class="logo rounded-5"
+              style="width: 62px; height: 62px"
+            />
+          </div>
+          <div class="col-lg-2 mt-5" id="color">
+            <ul style="list-style: none">
+              <li>
+                <a href="#"><h4>About us</h4></a>
+              </li>
+              <li><a href="#">Our heritage</a></li>
+              <li><a href="#">Coffeehouse</a></li>
+              <li><a href="#">Our Compnay</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 mt-5" id="color">
+            <ul style="list-style: none">
+              <li>
+                <a href="#"><h4>Responsibilty</h4></a>
+              </li>
+              <li><a href="#">Diversity</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Ethical Sourching</a></li>
+              <li>
+                <a href="#">Environmetnal<br />Stewardship</a>
+              </li>
+              <li><a href="#">Learn More</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 mt-5" id="color">
+            <ul style="list-style: none">
+              <li>
+                <a href="#"><h4>Quick links</h4></a>
+              </li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Faqs</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Delivery</a></li>
+              <li>
+                <a href="#">Loyalty Program Terms <br />and Conditions</a>
+              </li>
+              <li>
+                <a href="#">Starbucks India Mobile<br />App Terms of Use</a>
+              </li>
+              <li>
+                <a href="#"
+                  >Special Discount 25% Off <br />
+                  Offer</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 mt-5" id="color">
+            <ul style="list-style: none">
+              <li>
+                <a href="#"><h4>Legal</h4></a>
+              </li>
+              <li><a href="#">Disclaimer</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 d-flex flex-row">
+            <div>
+              <h3 class="text-light mb-4 fs-5 fw-bold ms-3">SOCIAL MEDIA</h3>
+              <i class="fa-brands fa-instagram text-light fa-2x ms-3"></i>
+              <i class="fa-brands fa-facebook text-light fa-2x ms-3"></i>
+              <i class="fa-solid fa-x text-light fa-2x ms-3"></i>
+            </div>
+            <div class="playstore ms-3">
+              <button
+                type="button"
+                class="btn btn-primary btn-lg mb-3 text-center text-dark bg-light fs-5 fw-bold"
+              >
+                <i class="fa-brands fa-apple fa-2x"></i> Apple Store
+              </button>
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary btn-lg mb-3 text-center text-dark bg-light fs-5 fw-bold"
+              >
+                <i class="fab fa-google-play fa-2x"></i> Play Store
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <hr class="text-light" />
+        </div>
+        <div class="row" id="end">
+          <ul class="d-flex flex-row gap-4">
+            <li><a href="">Web Accessiblity </a></li>
+            <li><a href="">Privacy Statement </a></li>
+            <li><a href="">Terms of Use </a></li>
+            <li><a href="">Contact us </a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid #00a862;
+    color: #00a862;
+  }
+  .nav-pills .nav-link {
+    border-radius: 0;
+    color: #555;
+  }
+  .imageoverflow{
+    position: relative;
+  }
+  .overimage{
+    position: absolute;
+    left: -20%;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+  }
+  

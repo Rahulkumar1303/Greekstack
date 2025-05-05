@@ -1,0 +1,60 @@
+@media screen and (max-width: 576px) {
+    #know{
+      padding-top: 16px; /* sirf top se padding */
+
+    }
+    #button{
+        width: 100px;
+    }
+    #starbuck{
+        margin-bottom: 0px;
+    }
+    #search{
+        width: 200px;
+        margin-right: 0px;
+    }
+   
+  }
+  .circle-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .handcrafted h5 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .barista{
+    background-color:lightgrey;  
+  } 
+  .Discoverworld{
+    background-color:lightgrey;  
+  }
+  #color>ul>li>a>h4{
+    color: white;
+   
+    
+  }
+  #color>ul>li>a{
+    color: white;
+    text-decoration: none;
+    
+   
+  }
+ #color li{
+  margin-top: 20px;
+ }
+ #end>ul>li{
+  
+  list-style: none;
+ }
+ #end>ul>li>a{
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+ }
+ 
