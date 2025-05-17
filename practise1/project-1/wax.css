@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6c757d;
+}
+
+.fab {
+    color: #333;
+    font-size: 18px;
+}
+
+.fab:hover {
+    color: #000;
+}
+#background-1{
+    background-image: url('https://images.unsplash.com/photo-1718166309551-56d946b000d4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFjaWZpYyUyMG1hbGx8ZW58MHx8MHx8fDA%3D');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    margin: 0;
+}
+.Meetme p{
+    font-family:"Edu QLD Beginner", cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(138, 74, 74);
+}
+.Meetme span{
+    font-size: 80px;
+    font-weight: bold;
+    font-family:'Playfair Display';
+}
+.section-2{
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: left;
+}
+.main-text{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    color: #222;
+}
+@media screen and (max-width: 768px) {
+    .main-text, .main-text2, .maintext-3 {
+      font-size: 24px;
+    }
+  
+    .Meetme span {
+      font-size: 40px;
+    }
+  }
+  
+.Beach{
+    text-align: center;
+}
+.Beach img{
+    padding-top: 40px;
+    
+    
+}
+/* section-4 */
+.section-4{
+   
+    background-color:rgb(187, 139, 106); 
+    
+}
+.Gardenia{
+    font-style: italic;
+}
+/* section-5 */
+#section-5{
+    background-color:rgb(145, 108, 83);
+}
+/* section-6 */
+#section-6{
+    background-color:rgb(124, 91, 69);
+}
+/* section-7 */
+.main-text2{
+   
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #222;
+}
+#section-7{
+    background-color: rgb(209, 203, 203);
+}
+/* section-8 */
+#section-8{
+    background-color:rgb(214, 182, 160);
+}
+/* section-9 */
+#section-9{
+    background-color: rgb(209, 203, 203);
+    
+}
+.maintext-3{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    color: #222;
+}
+/* section-10 */
+#section-10{
+    width:100%;
+}
+/* footer-11 */
+#footer{
+    background-color:rgb(78, 56, 42);
+}
+form {
+    max-width: 900px;
+    margin: auto;
+  }
+  input, select {
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3e281b;
+    border: none;
+    border-bottom: 1px solid #f5e2c4;
+    color: #f5e2c4;
+    font-size: 16px;
+  }
+  input::placeholder {
+    color: #cbb59c;
+  }
+  .submit-btn {
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #deca95;
+    color: #3e281b;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+
